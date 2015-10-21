@@ -1,0 +1,117 @@
+html {
+    background-color: black;
+}
+
+table {
+    height: 500px;
+    width: 500px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+td {
+    background-color: #09c;
+}
+
+.alwaysdead {
+    background-color: white;
+}
+
+.alive {
+    background-color: #09c;
+}
+
+.dead {
+    background-color: red;
+}
+
+.onceAlive {
+    background-color: red;
+}
+
+header p {
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 54px;
+    font-style: italic;
+    font-weight: bold;
+    color: #09C;
+    text-align: center;
+    margin: auto;
+    
+}
+
+section {
+    float: left;
+    position: relative;
+    font-style: italic;
+    font-weight: bold;
+    color: #09C;
+    text-align: center;
+    margin-left: 115px;
+    margin-right: 10px;
+    margin-top: 10px;
+    height: 555px;
+    width: 705px;
+    border-radius: 15px;
+}
+
+form    {
+background: -webkit-gradient(linear, bottom, left 175px, from(#CCCCCC), to(#EEEEEE));
+background: -moz-linear-gradient(bottom, #CCCCCC, #EEEEEE 175px);
+margin-left:10px;
+margin-top: 0px;
+    margin-right:0px;
+position:relative;
+width:200px;
+height:550px;
+font-family: Tahoma, Geneva, sans-serif;
+font-size: 14px;
+font-style: italic;
+line-height: 24px;
+font-weight: bold;
+color: #09C;
+text-decoration: none;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+padding:10px;
+border: 1px solid #999;
+border: inset 1px solid #333;
+-webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+-moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+    float: left;
+}
+
+span {
+margin: auto;
+}
+
+.first {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#reset-button {
+    margin-left: 60px;
+}
+
+button {
+    display: inline-table;
+     background: #09C;
+    color: white;
+    border-radius: 4px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+input    {
+    margin: auto;
+width:100px;
+display:block;
+border: 1px solid #999;
+height: 25px;
+-webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+-moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+}
+

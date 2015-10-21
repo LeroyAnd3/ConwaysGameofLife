@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="a2.css">
+        <script type="text/javascript" src="jquery-1.11.3.min.js"></script>
+        <script type="text/javascript" src="a2.js"></script>
+
+    </head>
+    <body>
+        <div id="wrapper">
+            <header>
+                <p id="title">Conway's Game of Life</p>
+            </header>
+            
+            <nav class="formholder">
+                <form>
+                    <h1>Control Center</h1>
+                    <div>
+                    <label><span>Width: </span><input id="width-entry" type="text" name="width" value="10"></label>
+                    <label><span>Height: </span><input id="height-entry" type="text" name="height" value="10"></label>
+                    <label><span>Speed: </span><input id="speed-entry" type="number" name="quantity" min="0" max="1000" value="0"></label>
+                    <label><span>r: </span><input  id="radius" type="number" name="quantity" min="1" max="10" value = "1"></label>
+                    <label><span>l: </span><input id="lonely" type="text" name="width" value = "2"></label>
+                    <label><span>o: </span><input id="over" type="text" name="width" value = "3"></label>
+                    <label><span>gmin: </span><input id="min" type="text" name="width" value = "3"></label>
+                    <label><span>gmax: </span><input id="max" type="text" name="width" value = "3"></label>
+                    <label><button id = "start-button" class = "first" type="button"><span>Start</span></button></label>
+                        <label><button id = "increment-button" class = "first" type="button"><span>&#9658&#9658</span></button></label>
+                    <label><button id = "pause-button" type="button"><span>&#10074&#10074</span></button></label><br>
+                    
+                    <label><button id = "reset-button" type="button"><span>Reset</span></button></label><br>
+                    <label><button id = "random-button" class = "first" type="button"><span>Random</span></button></label>
+                    <select id="gameMode">
+                        <option value="alwaysDead">Always Dead</option>
+                        <option value="alwaysAlive">Always Alive</option>
+                        <option value="toroidal">Toroidal</option>
+                    </select>
+                    <br>
+                    <label><button id = "create-button" type="button"><span>Create Grid</span></button></label>
+                    </div>
+                </form>
+            </nav>
+            
+            <section id="play">
+            </section>
+        </div>
+    </body>
+</html>
